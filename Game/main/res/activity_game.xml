@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.game.Game">
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="20dp"
+        android:layout_height="286dp"
+        android:layout_marginStart="36dp"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/string6"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="208dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/string5"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/string4"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/string3"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/string2"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/string1"
+        android:layout_width="641dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="monospace"
+        android:textDirection="ltr"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
